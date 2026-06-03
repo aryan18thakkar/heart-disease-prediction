@@ -9,7 +9,7 @@ expected_columns=joblib.load('columns.pkl')
 
 
 
-st.title("Heart stroke prediction by aryan")
+st.title("Heart Disease Prediction")
 st.markdown("Provide the following details")
 age=st.slider("Age",18,100,40)
 sex=st.selectbox("Sex",("Male","Female"))
